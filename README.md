@@ -1,5 +1,6 @@
+<img src="AggmGPT.png" height="200">
 # AggmGPT-2  
-A capable 7B language model.  
+A capable 7B language model great at instruction following.
 
 ## Usage  
 You can easily use this model in Python with the following code:  
