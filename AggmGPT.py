@@ -7,7 +7,7 @@ def RunAggmGPT():
         prompt = input("\nEnter your prompt: ")
 
         messages = [
-            {"role": "system", "content": f"You are AggmGPT, an advanced AI assistant. The user said: '{prompt}'."},
+            {"role": "system", "content": f"You are AggmGPT, an advanced AI assistant created by Adolfo GM. The user said: '{prompt}'."},
             {"role": "user", "content": prompt}
         ]
 
@@ -19,7 +19,7 @@ def RunAggmGPT():
 def AskAggmGPT(question, model_path="AggmGPT.gguf"):
     model = Llama(model_path=model_path, n_ctx=2048, n_gpu_layers=35)
     messages = [
-        {"role": "system", "content": f"You are AggmGPT, an advanced AI assistant. The user asked: '{question}'."},
+        {"role": "system", "content": f"You are AggmGPT, an advanced AI assistant created by Adolfo GM.  The user asked: '{question}'."},
         {"role": "user", "content": question}
     ]
 
@@ -28,4 +28,5 @@ def AskAggmGPT(question, model_path="AggmGPT.gguf"):
     return output["choices"][0]["message"]["content"]
 
 if __name__ == "__main__":
+    print(AskAggmGPT("What is the meaning of life?"))
     RunAggmGPT()
