@@ -1,7 +1,7 @@
 from llama_cpp import Llama
 
 def RunAggmGPT():
-    model_path = "AggmGPT/AggmGPT.gguf"  
+    model_path = "AggmGPT.gguf"  
     model = Llama(model_path=model_path, n_ctx=2048, n_gpu_layers=35)
     while True:
         prompt = input("\nEnter your prompt: ")
@@ -16,7 +16,7 @@ def RunAggmGPT():
         print("\nAggmGPT:")
         print(output["choices"][0]["message"]["content"])
 
-def AskAggmGPT(question, model_path="AggmGPT/AggmGPT.gguf"):
+def AskAggmGPT(question, model_path="AggmGPT.gguf"):
     model = Llama(model_path=model_path, n_ctx=2048, n_gpu_layers=35)
     messages = [
         {"role": "system", "content": f"You are AggmGPT, an advanced AI assistant. The user asked: '{question}'."},
