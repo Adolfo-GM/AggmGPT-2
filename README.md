@@ -1,6 +1,8 @@
-<img src="AggmGPT.png" height="200">
 
 # AggmGPT-2  
+read the [research paper](OfflineLocalPersonalizedArtificalIntelligence.pdf)
+
+<img src="AggmGPT.png" height="200">
 
 A capable 7B language model great at instruction following.
 
