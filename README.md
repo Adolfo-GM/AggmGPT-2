@@ -1,10 +1,10 @@
 
 # AggmGPT-2  
-read the [research paper](OfflineLocalPersonalizedArtificalIntelligence.pdf)
+Read the [research paper](OfflineLocalPersonalizedArtificalIntelligence.pdf)
 
 <img src="AggmGPT.png" height="200">
 
-A capable 7B language model great at instruction following.
+AggmGPT-2 is a capable 7B language model great at instruction following.
 
 ## Usage  
 You can easily use this model in Python with the following code:  
