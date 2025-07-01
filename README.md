@@ -5,7 +5,7 @@ Read the [research paper](OfflineLocalPersonalizedArtificalIntelligence.pdf)
 
 <img src="AggmGPT.png" height="200">
 
-AggmGPT-2 is a capable 7B parameters Large language model that is great at following instructions and keeping the context in the conversation.
+AggmGPT-2 is a capable 8B parameters Large language model that is great at following instructions and keeping the context in the conversation.
 
 ## Usage
 
