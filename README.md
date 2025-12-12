@@ -22,3 +22,5 @@ You can get the .gguf model on Hugging Face:
 🔗 [AggmGPT-2 on Hugging Face](https://huggingface.co/Adolfo-GM/AggmGPT-2)  
 
 <img src="chat.png" height="300">
+
+This model is based on Qwen.
